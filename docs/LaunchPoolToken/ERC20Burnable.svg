@@ -1,0 +1,120 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="530pt" height="400pt" viewBox="0.00 0.00 529.94 400.00" style="">
+<g id="graph0" class="graph" transform="translate(4,396) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-396 525.94,-396 525.94,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterERC20BurnableUpgradeable">
+
+<path fill="#445773" stroke="#445773" d="M20,-8C20,-8 501.94,-8 501.94,-8 507.94,-8 513.94,-14 513.94,-20 513.94,-20 513.94,-235 513.94,-235 513.94,-241 507.94,-247 501.94,-247 501.94,-247 20,-247 20,-247 14,-247 8,-241 8,-235 8,-235 8,-20 8,-20 8,-14 14,-8 20,-8" style=""/>
+<text text-anchor="middle" x="260.97" y="-230.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ERC20BurnableUpgradeable</text>
+</g>
+<g id="clust2" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="89.75,-255 89.75,-384 460.72,-384 460.72,-255 89.75,-255" style=""/>
+<text text-anchor="middle" x="275.23" y="-367.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- ERC20BurnableUpgradeable.__ERC20Burnable_init -->
+<g id="node1" class="node" pointer-events="visible" data-name="ERC20BurnableUpgradeable.__ERC20Burnable_init">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="162.75" cy="-196" rx="102.47" ry="18" style=""/>
+<text text-anchor="middle" x="162.75" y="-191.8" font-family="Times,serif" font-size="14.00" style="">__ERC20Burnable_init</text>
+</g>
+<!-- ERC20BurnableUpgradeable.__ERC20Burnable_init_unchained -->
+<g id="node2" class="node" pointer-events="visible" data-name="ERC20BurnableUpgradeable.__ERC20Burnable_init_unchained">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="162.75" cy="-142" rx="147" ry="18" style=""/>
+<text text-anchor="middle" x="162.75" y="-137.8" font-family="Times,serif" font-size="14.00" style="">__ERC20Burnable_init_unchained</text>
+</g>
+<!-- ERC20BurnableUpgradeable.burn -->
+<g id="node3" class="node" pointer-events="visible" data-name="ERC20BurnableUpgradeable.burn">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="162.75" cy="-88" rx="28.98" ry="18" style=""/>
+<text text-anchor="middle" x="162.75" y="-83.8" font-family="Times,serif" font-size="14.00" style="">burn</text>
+</g>
+<!-- ERC20BurnableUpgradeable._burn -->
+<g id="node5" class="node" pointer-events="visible" data-name="ERC20BurnableUpgradeable._burn">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="425.72" cy="-142" rx="33.63" ry="18" style=""/>
+<text text-anchor="middle" x="425.72" y="-137.8" font-family="Times,serif" font-size="14.00" style="">_burn</text>
+</g>
+<!-- ERC20BurnableUpgradeable.burn&#45;&gt;ERC20BurnableUpgradeable._burn -->
+<g id="edge1" class="edge" data-name="ERC20BurnableUpgradeable.burn-&gt;ERC20BurnableUpgradeable._burn">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M192.04,-92.83C221.46,-97.96 268.82,-106.47 309.5,-115 333.25,-119.98 359.62,-126.12 381.14,-131.28" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="380.02,-134.61 390.57,-133.56 381.67,-127.81 380.02,-134.61" style=""/>
+</g>
+<!-- ERC20BurnableUpgradeable._msgSender -->
+<g id="node6" class="node" pointer-events="visible" data-name="ERC20BurnableUpgradeable._msgSender">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="425.72" cy="-88" rx="58.56" ry="18" style=""/>
+<text text-anchor="middle" x="425.72" y="-83.8" font-family="Times,serif" font-size="14.00" style="">_msgSender</text>
+</g>
+<!-- ERC20BurnableUpgradeable.burn&#45;&gt;ERC20BurnableUpgradeable._msgSender -->
+<g id="edge2" class="edge" data-name="ERC20BurnableUpgradeable.burn-&gt;ERC20BurnableUpgradeable._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M193.18,-88C231.64,-88 300.29,-88 352.89,-88" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="352.86,-91.5 362.86,-88 352.86,-84.5 352.86,-91.5" style=""/>
+</g>
+<!-- ERC20BurnableUpgradeable.burnFrom -->
+<g id="node4" class="node" pointer-events="visible" data-name="ERC20BurnableUpgradeable.burnFrom">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="162.75" cy="-34" rx="49.83" ry="18" style=""/>
+<text text-anchor="middle" x="162.75" y="-29.8" font-family="Times,serif" font-size="14.00" style="">burnFrom</text>
+</g>
+<!-- ERC20BurnableUpgradeable.burnFrom&#45;&gt;ERC20BurnableUpgradeable._burn -->
+<g id="edge5" class="edge" data-name="ERC20BurnableUpgradeable.burnFrom-&gt;ERC20BurnableUpgradeable._burn">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M213.93,-33.75C243.85,-35.81 281.35,-42.44 309.5,-61 333.58,-76.88 322.63,-97.41 345.5,-115 355.58,-122.76 368.04,-128.37 380.07,-132.39" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="378.84,-135.68 389.42,-135.17 380.83,-128.97 378.84,-135.68" style=""/>
+</g>
+<!-- ERC20BurnableUpgradeable.burnFrom&#45;&gt;ERC20BurnableUpgradeable._msgSender -->
+<g id="edge4" class="edge" data-name="ERC20BurnableUpgradeable.burnFrom-&gt;ERC20BurnableUpgradeable._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M209.48,-41.9C238.25,-47.02 276.12,-54 309.5,-61 327.54,-64.78 347.09,-69.23 364.87,-73.41" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="363.98,-76.8 374.51,-75.7 365.59,-69.99 363.98,-76.8" style=""/>
+</g>
+<!-- ERC20BurnableUpgradeable._spendAllowance -->
+<g id="node7" class="node" pointer-events="visible" data-name="ERC20BurnableUpgradeable._spendAllowance">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="425.72" cy="-34" rx="80.45" ry="18" style=""/>
+<text text-anchor="middle" x="425.72" y="-29.8" font-family="Times,serif" font-size="14.00" style="">_spendAllowance</text>
+</g>
+<!-- ERC20BurnableUpgradeable.burnFrom&#45;&gt;ERC20BurnableUpgradeable._spendAllowance -->
+<g id="edge3" class="edge" data-name="ERC20BurnableUpgradeable.burnFrom-&gt;ERC20BurnableUpgradeable._spendAllowance">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M214.07,-34C247.21,-34 291.61,-34 331.11,-34" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="330.98,-37.5 340.98,-34 330.98,-30.5 330.98,-37.5" style=""/>
+</g>
+<!-- key -->
+<g id="node8" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="227.75,-351 97.75,-351 97.75,-263 227.75,-263 227.75,-351" style=""/>
+<text text-anchor="start" x="147.39" y="-332.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="143.5" y="-312.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="120.95" y="-292.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="107.35" y="-272.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node9" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="452.72,-351 398.72,-351 398.72,-263 452.72,-263 452.72,-351" style=""/>
+<text text-anchor="start" x="415.72" y="-332.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="415.72" y="-312.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="none" points="413.72,-287 413.72,-307 438.72,-307 438.72,-287 413.72,-287" style=""/>
+<text text-anchor="start" x="415.72" y="-292.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="415.72,-269 415.72,-285 436.72,-285 436.72,-269 415.72,-269" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge6" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M220.75,-337C301.57,-337 324.97,-337 399.74,-337" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="399.69,-340.5 409.69,-337 399.69,-333.5 399.69,-340.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge7" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M220.75,-317C301.57,-317 324.97,-317 399.74,-317" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="399.69,-320.5 409.69,-317 399.69,-313.5 399.69,-320.5" style=""/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,197 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="678pt" height="647pt" viewBox="0.00 0.00 678.15 647.00" style="">
+<g id="graph0" class="graph" transform="translate(6.146613367442939,635.7714161782195) scale(1.0000000000000007)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-643 674.15,-643 674.15,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterERC20VotesUpgradeable">
+
+<path fill="#445773" stroke="#445773" d="M20,-93C20,-93 650.15,-93 650.15,-93 656.15,-93 662.15,-99 662.15,-105 662.15,-105 662.15,-482 662.15,-482 662.15,-488 656.15,-494 650.15,-494 650.15,-494 20,-494 20,-494 14,-494 8,-488 8,-482 8,-482 8,-105 8,-105 8,-99 14,-93 20,-93" style=""/>
+<text text-anchor="middle" x="335.07" y="-477.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ERC20VotesUpgradeable</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterVotesUpgradeable">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M393.68,-8C393.68,-8 488.9,-8 488.9,-8 494.9,-8 500.9,-14 500.9,-20 500.9,-20 500.9,-73 500.9,-73 500.9,-79 494.9,-85 488.9,-85 488.9,-85 393.68,-85 393.68,-85 387.68,-85 381.68,-79 381.68,-73 381.68,-73 381.68,-20 381.68,-20 381.68,-14 387.68,-8 393.68,-8" style=""/>
+<text text-anchor="middle" x="441.29" y="-68.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">VotesUpgradeable</text>
+</g>
+<g id="clust3" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="76.88,-502 76.88,-631 476.29,-631 476.29,-502 76.88,-502" style=""/>
+<text text-anchor="middle" x="276.58" y="-614.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- ERC20VotesUpgradeable.__ERC20Votes_init -->
+<g id="node1" class="node" pointer-events="visible" data-name="ERC20VotesUpgradeable.__ERC20Votes_init">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="149.88" cy="-443" rx="89.23" ry="18" style=""/>
+<text text-anchor="middle" x="149.88" y="-438.8" font-family="Times,serif" font-size="14.00" style="">__ERC20Votes_init</text>
+</g>
+<!-- ERC20VotesUpgradeable.__ERC20Votes_init_unchained -->
+<g id="node2" class="node" pointer-events="visible" data-name="ERC20VotesUpgradeable.__ERC20Votes_init_unchained">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="149.88" cy="-389" rx="133.76" ry="18" style=""/>
+<text text-anchor="middle" x="149.88" y="-384.8" font-family="Times,serif" font-size="14.00" style="">__ERC20Votes_init_unchained</text>
+</g>
+<!-- ERC20VotesUpgradeable._maxSupply -->
+<g id="node3" class="node" pointer-events="visible" data-name="ERC20VotesUpgradeable._maxSupply">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="441.29" cy="-281" rx="59.72" ry="18" style=""/>
+<text text-anchor="middle" x="441.29" y="-276.8" font-family="Times,serif" font-size="14.00" style="">_maxSupply</text>
+</g>
+<!-- ERC20VotesUpgradeable.type -->
+<g id="node8" class="node" pointer-events="visible" data-name="ERC20VotesUpgradeable.type">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="626.48" cy="-281" rx="27.83" ry="18" style=""/>
+<text text-anchor="middle" x="626.48" y="-276.8" font-family="Times,serif" font-size="14.00" style="">type</text>
+</g>
+<!-- ERC20VotesUpgradeable._maxSupply&#45;&gt;ERC20VotesUpgradeable.type -->
+<g id="edge1" class="edge" data-name="ERC20VotesUpgradeable._maxSupply-&gt;ERC20VotesUpgradeable.type">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M502.27,-281C529.09,-281 560.03,-281 584.19,-281" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="584.18,-284.5 594.18,-281 584.18,-277.5 584.18,-284.5" style=""/>
+</g>
+<!-- ERC20VotesUpgradeable._update -->
+<g id="node4" class="node" pointer-events="visible" data-name="ERC20VotesUpgradeable._update">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="149.88" cy="-335" rx="41.71" ry="18" style=""/>
+<text text-anchor="middle" x="149.88" y="-330.8" font-family="Times,serif" font-size="14.00" style="">_update</text>
+</g>
+<!-- ERC20VotesUpgradeable._update&#45;&gt;ERC20VotesUpgradeable._maxSupply -->
+<g id="edge4" class="edge" data-name="ERC20VotesUpgradeable._update-&gt;ERC20VotesUpgradeable._maxSupply">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M189.91,-327.72C237.61,-318.82 318.98,-303.64 375.97,-293" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="376.3,-296.5 385.49,-291.23 375.01,-289.62 376.3,-296.5" style=""/>
+</g>
+<!-- ERC20VotesUpgradeable.totalSupply -->
+<g id="node9" class="node" pointer-events="visible" data-name="ERC20VotesUpgradeable.totalSupply">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="441.29" cy="-335" rx="55.64" ry="18" style=""/>
+<text text-anchor="middle" x="441.29" y="-330.8" font-family="Times,serif" font-size="14.00" style="">totalSupply</text>
+</g>
+<!-- ERC20VotesUpgradeable._update&#45;&gt;ERC20VotesUpgradeable.totalSupply -->
+<g id="edge3" class="edge" data-name="ERC20VotesUpgradeable._update-&gt;ERC20VotesUpgradeable.totalSupply">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M192.96,-335C239.7,-335 315.85,-335 371.33,-335" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="371.22,-338.5 381.22,-335 371.22,-331.5 371.22,-338.5" style=""/>
+</g>
+<!-- ERC20VotesUpgradeable.ERC20ExceededSafeSupply -->
+<g id="node10" class="node" pointer-events="visible" data-name="ERC20VotesUpgradeable.ERC20ExceededSafeSupply">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="441.29" cy="-389" rx="121.56" ry="18" style=""/>
+<text text-anchor="middle" x="441.29" y="-384.8" font-family="Times,serif" font-size="14.00" style="">ERC20ExceededSafeSupply</text>
+</g>
+<!-- ERC20VotesUpgradeable._update&#45;&gt;ERC20VotesUpgradeable.ERC20ExceededSafeSupply -->
+<g id="edge5" class="edge" data-name="ERC20VotesUpgradeable._update-&gt;ERC20VotesUpgradeable.ERC20ExceededSafeSupply">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M189.91,-342.28C230.41,-349.84 295.18,-361.92 348.69,-371.91" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="347.88,-375.32 358.36,-373.71 349.17,-368.44 347.88,-375.32" style=""/>
+</g>
+<!-- ERC20VotesUpgradeable._transferVotingUnits -->
+<g id="node11" class="node" pointer-events="visible" data-name="ERC20VotesUpgradeable._transferVotingUnits">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="441.29" cy="-443" rx="93.21" ry="18" style=""/>
+<text text-anchor="middle" x="441.29" y="-438.8" font-family="Times,serif" font-size="14.00" style="">_transferVotingUnits</text>
+</g>
+<!-- ERC20VotesUpgradeable._update&#45;&gt;ERC20VotesUpgradeable._transferVotingUnits -->
+<g id="edge6" class="edge" data-name="ERC20VotesUpgradeable._update-&gt;ERC20VotesUpgradeable._transferVotingUnits">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M192.97,-335.42C220.82,-337.55 256.99,-344.01 283.76,-362 307.7,-378.09 295.98,-399.68 319.76,-416 327.9,-421.59 337.01,-426.04 346.49,-429.58" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="345.16,-432.83 355.76,-432.65 347.36,-426.19 345.16,-432.83" style=""/>
+</g>
+<!-- VotesUpgradeable._update -->
+<g id="node15" class="node" pointer-events="visible" data-name="VotesUpgradeable._update">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="441.29" cy="-34" rx="41.71" ry="18" style=""/>
+<text text-anchor="middle" x="441.29" y="-29.8" font-family="Times,serif" font-size="14.00" style="">_update</text>
+</g>
+<!-- ERC20VotesUpgradeable._update&#45;&gt;VotesUpgradeable._update -->
+<g id="edge2" class="edge" data-name="ERC20VotesUpgradeable._update-&gt;VotesUpgradeable._update">
+
+<path fill="none" stroke="white" stroke-width="2" d="M184.38,-323.41C215.03,-311.04 259.22,-288.44 283.76,-254 327.32,-192.87 272.64,-147.42 319.76,-89 337.22,-67.35 365.08,-53.88 389.62,-45.7" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="390.64,-49.04 399.18,-42.77 388.59,-42.35 390.64,-49.04" style=""/>
+</g>
+<!-- ERC20VotesUpgradeable._getVotingUnits -->
+<g id="node5" class="node" pointer-events="visible" data-name="ERC20VotesUpgradeable._getVotingUnits">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="149.88" cy="-227" rx="75.33" ry="18" style=""/>
+<text text-anchor="middle" x="149.88" y="-222.8" font-family="Times,serif" font-size="14.00" style="">_getVotingUnits</text>
+</g>
+<!-- ERC20VotesUpgradeable.balanceOf -->
+<g id="node12" class="node" pointer-events="visible" data-name="ERC20VotesUpgradeable.balanceOf">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="441.29" cy="-227" rx="50.92" ry="18" style=""/>
+<text text-anchor="middle" x="441.29" y="-222.8" font-family="Times,serif" font-size="14.00" style="">balanceOf</text>
+</g>
+<!-- ERC20VotesUpgradeable._getVotingUnits&#45;&gt;ERC20VotesUpgradeable.balanceOf -->
+<g id="edge7" class="edge" data-name="ERC20VotesUpgradeable._getVotingUnits-&gt;ERC20VotesUpgradeable.balanceOf">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M226.54,-227C273.08,-227 332.08,-227 376.29,-227" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="376.19,-230.5 386.19,-227 376.19,-223.5 376.19,-230.5" style=""/>
+</g>
+<!-- ERC20VotesUpgradeable.numCheckpoints -->
+<g id="node6" class="node" pointer-events="visible" data-name="ERC20VotesUpgradeable.numCheckpoints">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="149.88" cy="-173" rx="76.47" ry="18" style=""/>
+<text text-anchor="middle" x="149.88" y="-168.8" font-family="Times,serif" font-size="14.00" style="">numCheckpoints</text>
+</g>
+<!-- ERC20VotesUpgradeable._numCheckpoints -->
+<g id="node13" class="node" pointer-events="visible" data-name="ERC20VotesUpgradeable._numCheckpoints">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="441.29" cy="-173" rx="81.13" ry="18" style=""/>
+<text text-anchor="middle" x="441.29" y="-168.8" font-family="Times,serif" font-size="14.00" style="">_numCheckpoints</text>
+</g>
+<!-- ERC20VotesUpgradeable.numCheckpoints&#45;&gt;ERC20VotesUpgradeable._numCheckpoints -->
+<g id="edge8" class="edge" data-name="ERC20VotesUpgradeable.numCheckpoints-&gt;ERC20VotesUpgradeable._numCheckpoints">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M227.68,-173C263.93,-173 307.54,-173 345.8,-173" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="345.8,-176.5 355.8,-173 345.8,-169.5 345.8,-176.5" style=""/>
+</g>
+<!-- ERC20VotesUpgradeable.checkpoints -->
+<g id="node7" class="node" pointer-events="visible" data-name="ERC20VotesUpgradeable.checkpoints">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="149.88" cy="-119" rx="57.32" ry="18" style=""/>
+<text text-anchor="middle" x="149.88" y="-114.8" font-family="Times,serif" font-size="14.00" style="">checkpoints</text>
+</g>
+<!-- ERC20VotesUpgradeable._checkpoints -->
+<g id="node14" class="node" pointer-events="visible" data-name="ERC20VotesUpgradeable._checkpoints">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="441.29" cy="-119" rx="61.98" ry="18" style=""/>
+<text text-anchor="middle" x="441.29" y="-114.8" font-family="Times,serif" font-size="14.00" style="">_checkpoints</text>
+</g>
+<!-- ERC20VotesUpgradeable.checkpoints&#45;&gt;ERC20VotesUpgradeable._checkpoints -->
+<g id="edge9" class="edge" data-name="ERC20VotesUpgradeable.checkpoints-&gt;ERC20VotesUpgradeable._checkpoints">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M208.4,-119C253.35,-119 316.18,-119 365.1,-119" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="364.83,-122.5 374.83,-119 364.83,-115.5 364.83,-122.5" style=""/>
+</g>
+<!-- key -->
+<g id="node16" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="214.88,-598 84.88,-598 84.88,-510 214.88,-510 214.88,-598" style=""/>
+<text text-anchor="start" x="134.52" y="-579.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="130.63" y="-559.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="108.08" y="-539.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="94.48" y="-519.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node17" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="468.29,-598 414.29,-598 414.29,-510 468.29,-510 468.29,-598" style=""/>
+<text text-anchor="start" x="431.29" y="-579.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="431.29" y="-559.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="none" points="429.29,-534 429.29,-554 454.29,-554 454.29,-534 429.29,-534" style=""/>
+<text text-anchor="start" x="431.29" y="-539.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="431.29,-516 431.29,-532 452.29,-532 452.29,-516 431.29,-516" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge10" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M207.88,-584C301.44,-584 327.98,-584 415.52,-584" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="415.26,-587.5 425.26,-584 415.26,-580.5 415.26,-587.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge11" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M207.88,-564C301.44,-564 327.98,-564 415.52,-564" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="415.26,-567.5 425.26,-564 415.26,-560.5 415.26,-567.5" style=""/>
+</g>
+</g>
+</svg>

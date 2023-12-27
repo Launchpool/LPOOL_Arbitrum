@@ -1,0 +1,94 @@
+digraph G {
+  graph [ ratio = "auto", page = "100", compound =true, bgcolor = "#2e3e56" ];
+  node [ style = "filled", fillcolor = "#edad56", color = "#edad56", penwidth =3 ];
+  edge [ color = "#fcfcfc", penwidth =2, fontname = "helvetica Neue Ultra Light" ];
+subgraph "clusterLaunchPoolToken" {
+  graph [ label = "LaunchPoolToken", color = "#445773", fontcolor = "#f0f0f0", style = "rounded", bgcolor = "#445773" ];
+  "LaunchPoolToken.initialize" [ label = "initialize", color = "#FF9797", fillcolor = "#FF9797" ];
+  "LaunchPoolToken._msgSender" [ label = "_msgSender", color = "#f2c383", fillcolor = "#f2c383" ];
+  "LaunchPoolToken._msgData" [ label = "_msgData", color = "#f2c383", fillcolor = "#f2c383" ];
+  "LaunchPoolToken.clock" [ label = "clock", color = "#FF9797", fillcolor = "#FF9797" ];
+  "LaunchPoolToken.CLOCK_MODE" [ label = "CLOCK_MODE", color = "#FF9797", fillcolor = "#FF9797" ];
+  "LaunchPoolToken._update" [ label = "_update", color = "#f2c383", fillcolor = "#f2c383" ];
+  "LaunchPoolToken.nonces" [ label = "nonces", color = "#FF9797", fillcolor = "#FF9797" ];
+  "LaunchPoolToken.pause" [ label = "pause", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "LaunchPoolToken.unpause" [ label = "unpause", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "LaunchPoolToken.setTrustedForwarder" [ label = "setTrustedForwarder", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "LaunchPoolToken.__ERC20_init" [ label = "__ERC20_init" ];
+  "LaunchPoolToken.__ERC20Permit_init" [ label = "__ERC20Permit_init" ];
+  "LaunchPoolToken.__ERC20Pausable_init" [ label = "__ERC20Pausable_init" ];
+  "LaunchPoolToken.__Ownable_init" [ label = "__Ownable_init" ];
+  "LaunchPoolToken._mint" [ label = "_mint" ];
+  "LaunchPoolToken._pause" [ label = "_pause" ];
+  "LaunchPoolToken._unpause" [ label = "_unpause" ];
+  "LaunchPoolToken._setTrustedForwarder" [ label = "_setTrustedForwarder" ];
+}
+
+subgraph "clusterERC2771Recipient" {
+  graph [ label = "ERC2771Recipient", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "ERC2771Recipient._msgSender" [ label = "_msgSender" ];
+  "ERC2771Recipient._msgData" [ label = "_msgData" ];
+  "ERC2771Recipient._update" [ label = "_update" ];
+  "ERC2771Recipient.nonces" [ label = "nonces" ];
+}
+
+  "LaunchPoolToken.initialize";
+  "LaunchPoolToken.__ERC20_init";
+  "LaunchPoolToken.__ERC20Permit_init";
+  "LaunchPoolToken.__ERC20Pausable_init";
+  "LaunchPoolToken.__Ownable_init";
+  "LaunchPoolToken._mint";
+  "LaunchPoolToken._msgSender";
+  "ERC2771Recipient._msgSender";
+  "LaunchPoolToken._msgData";
+  "ERC2771Recipient._msgData";
+  "LaunchPoolToken._update";
+  "ERC2771Recipient._update";
+  "LaunchPoolToken.nonces";
+  "ERC2771Recipient.nonces";
+  "LaunchPoolToken.pause";
+  "LaunchPoolToken._pause";
+  "LaunchPoolToken.unpause";
+  "LaunchPoolToken._unpause";
+  "LaunchPoolToken.setTrustedForwarder";
+  "LaunchPoolToken._setTrustedForwarder";
+  "LaunchPoolToken.initialize" -> "LaunchPoolToken.__ERC20_init" [ color = "#1bc6a6" ];
+  "LaunchPoolToken.initialize" -> "LaunchPoolToken.__ERC20Permit_init" [ color = "#1bc6a6" ];
+  "LaunchPoolToken.initialize" -> "LaunchPoolToken.__ERC20Pausable_init" [ color = "#1bc6a6" ];
+  "LaunchPoolToken.initialize" -> "LaunchPoolToken.__Ownable_init" [ color = "#1bc6a6" ];
+  "LaunchPoolToken.initialize" -> "LaunchPoolToken._mint" [ color = "#1bc6a6" ];
+  "LaunchPoolToken._msgSender" -> "ERC2771Recipient._msgSender" [ color = "white" ];
+  "LaunchPoolToken._msgData" -> "ERC2771Recipient._msgData" [ color = "white" ];
+  "LaunchPoolToken._update" -> "ERC2771Recipient._update" [ color = "white" ];
+  "LaunchPoolToken.nonces" -> "ERC2771Recipient.nonces" [ color = "white" ];
+  "LaunchPoolToken.pause" -> "LaunchPoolToken._pause" [ color = "#1bc6a6" ];
+  "LaunchPoolToken.unpause" -> "LaunchPoolToken._unpause" [ color = "#1bc6a6" ];
+  "LaunchPoolToken.setTrustedForwarder" -> "LaunchPoolToken._setTrustedForwarder" [ color = "#1bc6a6" ];
+
+
+rankdir=LR
+node [shape=plaintext]
+subgraph cluster_01 { 
+label = "Legend";
+key [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td align="right" port="i1">Internal Call</td></tr>
+  <tr><td align="right" port="i2">External Call</td></tr>
+  <tr><td align="right" port="i3">Defined Contract</td></tr>
+  <tr><td align="right" port="i4">Undefined Contract</td></tr>
+  </table>>]
+key2 [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td port="i1">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i2">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i3" bgcolor="#445773">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i4">
+    <table border="1" cellborder="0" cellspacing="0" cellpadding="7" color="#e8726d">
+      <tr>
+       <td></td>
+      </tr>
+     </table>
+  </td></tr>
+  </table>>]
+key:i1:e -> key2:i1:w [color="#1bc6a6"]
+key:i2:e -> key2:i2:w [color="white"]
+}
+}

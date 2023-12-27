@@ -1,0 +1,257 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="461pt" height="971pt" viewBox="0.00 0.00 461.30 971.00">
+<g id="graph0" class="graph" transform="translate(38.755313077357386,865.4905717214922) scale(0.8705505632961241)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-967 457.3,-967 457.3,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterLaunchPoolToken">
+
+<path fill="#445773" stroke="#445773" d="M20,-255C20,-255 433.3,-255 433.3,-255 439.3,-255 445.3,-261 445.3,-267 445.3,-267 445.3,-806 445.3,-806 445.3,-812 439.3,-818 433.3,-818 433.3,-818 20,-818 20,-818 14,-818 8,-812 8,-806 8,-806 8,-267 8,-267 8,-261 14,-255 20,-255" style=""/>
+<text text-anchor="middle" x="226.65" y="-801.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">LaunchPoolToken</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterERC2771Recipient">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M281.35,-8C281.35,-8 390.91,-8 390.91,-8 396.91,-8 402.91,-14 402.91,-20 402.91,-20 402.91,-235 402.91,-235 402.91,-241 396.91,-247 390.91,-247 390.91,-247 281.35,-247 281.35,-247 275.35,-247 269.35,-241 269.35,-235 269.35,-235 269.35,-20 269.35,-20 269.35,-14 275.35,-8 281.35,-8" style=""/>
+<text text-anchor="middle" x="336.13" y="-230.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ERC2771Recipient</text>
+</g>
+<g id="clust3" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="34.48,-826 34.48,-955 371.13,-955 371.13,-826 34.48,-826" style=""/>
+<text text-anchor="middle" x="202.81" y="-938.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- LaunchPoolToken.initialize -->
+<g id="node1" class="node" pointer-events="visible" data-name="LaunchPoolToken.initialize">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="107.48" cy="-767" rx="44.64" ry="18" style=""/>
+<text text-anchor="middle" x="107.48" y="-762.8" font-family="Times,serif" font-size="14.00" style="">initialize</text>
+</g>
+<!-- LaunchPoolToken.__ERC20_init -->
+<g id="node11" class="node" pointer-events="visible" data-name="LaunchPoolToken.__ERC20_init">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="336.13" cy="-659" rx="66.68" ry="18" style=""/>
+<text text-anchor="middle" x="336.13" y="-654.8" font-family="Times,serif" font-size="14.00" style="">__ERC20_init</text>
+</g>
+<!-- LaunchPoolToken.initialize&#45;&gt;LaunchPoolToken.__ERC20_init -->
+<g id="edge1" class="edge" data-name="LaunchPoolToken.initialize-&gt;LaunchPoolToken.__ERC20_init">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M150.88,-760.69C167.08,-756.73 184.99,-750.33 198.97,-740 222.17,-722.86 211.54,-702.83 234.97,-686 243.39,-679.95 253.09,-675.25 263.07,-671.61" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="263.99,-674.99 272.43,-668.6 261.84,-668.33 263.99,-674.99" style=""/>
+</g>
+<!-- LaunchPoolToken.__ERC20Permit_init -->
+<g id="node12" class="node" pointer-events="visible" data-name="LaunchPoolToken.__ERC20Permit_init">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="336.13" cy="-713" rx="92.68" ry="18" style=""/>
+<text text-anchor="middle" x="336.13" y="-708.8" font-family="Times,serif" font-size="14.00" style="">__ERC20Permit_init</text>
+</g>
+<!-- LaunchPoolToken.initialize&#45;&gt;LaunchPoolToken.__ERC20Permit_init -->
+<g id="edge2" class="edge" data-name="LaunchPoolToken.initialize-&gt;LaunchPoolToken.__ERC20Permit_init">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M147.7,-757.66C178.89,-750.22 223.42,-739.62 261.25,-730.6" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="261.93,-734.04 270.85,-728.32 260.31,-727.23 261.93,-734.04" style=""/>
+</g>
+<!-- LaunchPoolToken.__ERC20Pausable_init -->
+<g id="node13" class="node" pointer-events="visible" data-name="LaunchPoolToken.__ERC20Pausable_init">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="336.13" cy="-767" rx="101.33" ry="18" style=""/>
+<text text-anchor="middle" x="336.13" y="-762.8" font-family="Times,serif" font-size="14.00" style="">__ERC20Pausable_init</text>
+</g>
+<!-- LaunchPoolToken.initialize&#45;&gt;LaunchPoolToken.__ERC20Pausable_init -->
+<g id="edge3" class="edge" data-name="LaunchPoolToken.initialize-&gt;LaunchPoolToken.__ERC20Pausable_init">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M153.53,-767C173.01,-767 196.78,-767 220.62,-767" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="220.43,-770.5 230.43,-767 220.43,-763.5 220.43,-770.5" style=""/>
+</g>
+<!-- LaunchPoolToken.__Ownable_init -->
+<g id="node14" class="node" pointer-events="visible" data-name="LaunchPoolToken.__Ownable_init">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="336.13" cy="-551" rx="73.02" ry="18" style=""/>
+<text text-anchor="middle" x="336.13" y="-546.8" font-family="Times,serif" font-size="14.00" style="">__Ownable_init</text>
+</g>
+<!-- LaunchPoolToken.initialize&#45;&gt;LaunchPoolToken.__Ownable_init -->
+<g id="edge4" class="edge" data-name="LaunchPoolToken.initialize-&gt;LaunchPoolToken.__Ownable_init">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M152.61,-763.25C169.25,-759.66 187.02,-752.84 198.97,-740 249.23,-686.02 183.99,-631.3 234.97,-578 240.84,-571.86 247.94,-567.07 255.63,-563.34" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="256.91,-566.59 264.85,-559.58 254.27,-560.11 256.91,-566.59" style=""/>
+</g>
+<!-- LaunchPoolToken._mint -->
+<g id="node15" class="node" pointer-events="visible" data-name="LaunchPoolToken._mint">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="336.13" cy="-605" rx="33.64" ry="18" style=""/>
+<text text-anchor="middle" x="336.13" y="-600.8" font-family="Times,serif" font-size="14.00" style="">_mint</text>
+</g>
+<!-- LaunchPoolToken.initialize&#45;&gt;LaunchPoolToken._mint -->
+<g id="edge5" class="edge" data-name="LaunchPoolToken.initialize-&gt;LaunchPoolToken._mint">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M151.96,-762.61C168.5,-758.92 186.37,-752.2 198.97,-740 235.31,-704.8 198.16,-666.72 234.97,-632 249.38,-618.41 269.89,-611.51 288.6,-608.07" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="289.11,-611.53 298.49,-606.6 288.09,-604.61 289.11,-611.53" style=""/>
+</g>
+<!-- LaunchPoolToken._msgSender -->
+<g id="node2" class="node" pointer-events="visible" data-name="LaunchPoolToken._msgSender">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="107.48" cy="-281" rx="58.56" ry="18" style=""/>
+<text text-anchor="middle" x="107.48" y="-276.8" font-family="Times,serif" font-size="14.00" style="">_msgSender</text>
+</g>
+<!-- ERC2771Recipient._msgSender -->
+<g id="node19" class="node" pointer-events="visible" data-name="ERC2771Recipient._msgSender">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="336.13" cy="-34" rx="58.56" ry="18" style=""/>
+<text text-anchor="middle" x="336.13" y="-29.8" font-family="Times,serif" font-size="14.00" style="">_msgSender</text>
+</g>
+<!-- LaunchPoolToken._msgSender&#45;&gt;ERC2771Recipient._msgSender -->
+<g id="edge6" class="edge" data-name="LaunchPoolToken._msgSender-&gt;ERC2771Recipient._msgSender">
+
+<path fill="none" stroke="white" stroke-width="2" d="M113.97,-261.74C127.22,-218.8 165.15,-114.76 234.97,-61 244.55,-53.62 256,-48.25 267.68,-44.35" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="268.34,-47.81 276.96,-41.64 266.38,-41.09 268.34,-47.81" style=""/>
+</g>
+<!-- LaunchPoolToken._msgData -->
+<g id="node3" class="node" pointer-events="visible" data-name="LaunchPoolToken._msgData">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="107.48" cy="-443" rx="50.39" ry="18" style=""/>
+<text text-anchor="middle" x="107.48" y="-438.8" font-family="Times,serif" font-size="14.00" style="">_msgData</text>
+</g>
+<!-- ERC2771Recipient._msgData -->
+<g id="node20" class="node" pointer-events="visible" data-name="ERC2771Recipient._msgData">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="336.13" cy="-196" rx="50.39" ry="18" style=""/>
+<text text-anchor="middle" x="336.13" y="-191.8" font-family="Times,serif" font-size="14.00" style="">_msgData</text>
+</g>
+<!-- LaunchPoolToken._msgData&#45;&gt;ERC2771Recipient._msgData -->
+<g id="edge7" class="edge" data-name="LaunchPoolToken._msgData-&gt;ERC2771Recipient._msgData">
+
+<path fill="none" stroke="white" stroke-width="2" d="M157.33,-438.18C172.55,-434.36 188.15,-427.66 198.97,-416 250.01,-360.97 190.04,-311.13 234.97,-251 247.44,-234.31 266.53,-222.06 284.71,-213.42" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="285.94,-216.7 293.68,-209.46 283.12,-210.29 285.94,-216.7" style=""/>
+</g>
+<!-- LaunchPoolToken.clock -->
+<g id="node4" class="node" pointer-events="visible" data-name="LaunchPoolToken.clock">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="107.48" cy="-605" rx="31.9" ry="18" style=""/>
+<text text-anchor="middle" x="107.48" y="-600.8" font-family="Times,serif" font-size="14.00" style="">clock</text>
+</g>
+<!-- LaunchPoolToken.CLOCK_MODE -->
+<g id="node5" class="node" pointer-events="visible" data-name="LaunchPoolToken.CLOCK_MODE">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="107.48" cy="-551" rx="77.05" ry="18" style=""/>
+<text text-anchor="middle" x="107.48" y="-546.8" font-family="Times,serif" font-size="14.00" style="">CLOCK_MODE</text>
+</g>
+<!-- LaunchPoolToken._update -->
+<g id="node6" class="node" pointer-events="visible" data-name="LaunchPoolToken._update">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="107.48" cy="-335" rx="41.71" ry="18" style=""/>
+<text text-anchor="middle" x="107.48" y="-330.8" font-family="Times,serif" font-size="14.00" style="">_update</text>
+</g>
+<!-- ERC2771Recipient._update -->
+<g id="node21" class="node" pointer-events="visible" data-name="ERC2771Recipient._update">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="336.13" cy="-88" rx="41.71" ry="18" style=""/>
+<text text-anchor="middle" x="336.13" y="-83.8" font-family="Times,serif" font-size="14.00" style="">_update</text>
+</g>
+<!-- LaunchPoolToken._update&#45;&gt;ERC2771Recipient._update -->
+<g id="edge8" class="edge" data-name="LaunchPoolToken._update-&gt;ERC2771Recipient._update">
+
+<path fill="none" stroke="white" stroke-width="2" d="M150.05,-332.03C167.5,-328.65 186.58,-321.77 198.97,-308 257.33,-243.13 175.75,-179.09 234.97,-115 246.71,-102.3 263.73,-95.33 280.42,-91.57" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="280.84,-95.06 290.05,-89.83 279.59,-88.17 280.84,-95.06" style=""/>
+</g>
+<!-- LaunchPoolToken.nonces -->
+<g id="node7" class="node" pointer-events="visible" data-name="LaunchPoolToken.nonces">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="107.48" cy="-389" rx="37.71" ry="18" style=""/>
+<text text-anchor="middle" x="107.48" y="-384.8" font-family="Times,serif" font-size="14.00" style="">nonces</text>
+</g>
+<!-- ERC2771Recipient.nonces -->
+<g id="node22" class="node" pointer-events="visible" data-name="ERC2771Recipient.nonces">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="336.13" cy="-142" rx="37.71" ry="18" style=""/>
+<text text-anchor="middle" x="336.13" y="-137.8" font-family="Times,serif" font-size="14.00" style="">nonces</text>
+</g>
+<!-- LaunchPoolToken.nonces&#45;&gt;ERC2771Recipient.nonces -->
+<g id="edge9" class="edge" data-name="LaunchPoolToken.nonces-&gt;ERC2771Recipient.nonces">
+
+<path fill="none" stroke="white" stroke-width="2" d="M146.37,-386.7C164.76,-383.59 185.7,-376.75 198.97,-362 257.33,-297.13 175.75,-233.09 234.97,-169 247.66,-155.27 266.52,-148.23 284.47,-144.72" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="284.94,-148.19 294.29,-143.21 283.87,-141.27 284.94,-148.19" style=""/>
+</g>
+<!-- LaunchPoolToken.pause -->
+<g id="node8" class="node" pointer-events="visible" data-name="LaunchPoolToken.pause">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="107.48" cy="-713" rx="33.05" ry="18" style=""/>
+<text text-anchor="middle" x="107.48" y="-708.8" font-family="Times,serif" font-size="14.00" style="">pause</text>
+</g>
+<!-- LaunchPoolToken._pause -->
+<g id="node16" class="node" pointer-events="visible" data-name="LaunchPoolToken._pause">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="336.13" cy="-497" rx="37.71" ry="18" style=""/>
+<text text-anchor="middle" x="336.13" y="-492.8" font-family="Times,serif" font-size="14.00" style="">_pause</text>
+</g>
+<!-- LaunchPoolToken.pause&#45;&gt;LaunchPoolToken._pause -->
+<g id="edge10" class="edge" data-name="LaunchPoolToken.pause-&gt;LaunchPoolToken._pause">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M141.67,-711.22C160.98,-708.42 184.33,-701.72 198.97,-686 249.23,-632.02 183.99,-577.3 234.97,-524 247.79,-510.59 266.51,-503.6 284.3,-500.04" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="284.69,-503.52 294.01,-498.48 283.58,-496.61 284.69,-503.52" style=""/>
+</g>
+<!-- LaunchPoolToken.unpause -->
+<g id="node9" class="node" pointer-events="visible" data-name="LaunchPoolToken.unpause">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="107.48" cy="-659" rx="42.86" ry="18" style=""/>
+<text text-anchor="middle" x="107.48" y="-654.8" font-family="Times,serif" font-size="14.00" style="">unpause</text>
+</g>
+<!-- LaunchPoolToken._unpause -->
+<g id="node17" class="node" pointer-events="visible" data-name="LaunchPoolToken._unpause">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="336.13" cy="-443" rx="47.52" ry="18" style=""/>
+<text text-anchor="middle" x="336.13" y="-438.8" font-family="Times,serif" font-size="14.00" style="">_unpause</text>
+</g>
+<!-- LaunchPoolToken.unpause&#45;&gt;LaunchPoolToken._unpause -->
+<g id="edge11" class="edge" data-name="LaunchPoolToken.unpause-&gt;LaunchPoolToken._unpause">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M150.75,-655.64C167.91,-652.16 186.57,-645.32 198.97,-632 249.23,-578.02 183.99,-523.3 234.97,-470 245.62,-458.86 260.33,-452.16 275.21,-448.16" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="275.7,-451.64 284.7,-446.06 274.18,-444.8 275.7,-451.64" style=""/>
+</g>
+<!-- LaunchPoolToken.setTrustedForwarder -->
+<g id="node10" class="node" pointer-events="visible" data-name="LaunchPoolToken.setTrustedForwarder">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="107.48" cy="-497" rx="91.47" ry="18" style=""/>
+<text text-anchor="middle" x="107.48" y="-492.8" font-family="Times,serif" font-size="14.00" style="">setTrustedForwarder</text>
+</g>
+<!-- LaunchPoolToken._setTrustedForwarder -->
+<g id="node18" class="node" pointer-events="visible" data-name="LaunchPoolToken._setTrustedForwarder">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="336.13" cy="-389" rx="96.13" ry="18" style=""/>
+<text text-anchor="middle" x="336.13" y="-384.8" font-family="Times,serif" font-size="14.00" style="">_setTrustedForwarder</text>
+</g>
+<!-- LaunchPoolToken.setTrustedForwarder&#45;&gt;LaunchPoolToken._setTrustedForwarder -->
+<g id="edge12" class="edge" data-name="LaunchPoolToken.setTrustedForwarder-&gt;LaunchPoolToken._setTrustedForwarder">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M173.89,-483.49C182.8,-479.97 191.45,-475.55 198.97,-470 222.17,-452.86 211.54,-432.83 234.97,-416 239.92,-412.44 245.31,-409.36 250.94,-406.67" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="252.1,-409.98 259.98,-402.89 249.4,-403.52 252.1,-409.98" style=""/>
+</g>
+<!-- key -->
+<g id="node23" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="172.48,-922 42.48,-922 42.48,-834 172.48,-834 172.48,-922" style=""/>
+<text text-anchor="start" x="92.12" y="-903.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="88.23" y="-883.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="65.69" y="-863.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="52.09" y="-843.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node24" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="363.13,-922 309.13,-922 309.13,-834 363.13,-834 363.13,-922" style=""/>
+<text text-anchor="start" x="326.13" y="-903.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="326.13" y="-883.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="none" points="324.13,-858 324.13,-878 349.13,-878 349.13,-858 324.13,-858" style=""/>
+<text text-anchor="start" x="326.13" y="-863.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="326.13,-840 326.13,-856 347.13,-856 347.13,-840 326.13,-840" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge13" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M165.48,-908C231.03,-908 250.59,-908 310.21,-908" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="310.11,-911.5 320.11,-908 310.11,-904.5 310.11,-911.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge14" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M165.48,-888C231.03,-888 250.59,-888 310.21,-888" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="310.11,-891.5 320.11,-888 310.11,-884.5 310.11,-891.5" style=""/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,80 @@
+digraph G {
+  graph [ ratio = "auto", page = "100", compound =true, bgcolor = "#2e3e56" ];
+  node [ style = "filled", fillcolor = "#edad56", color = "#edad56", penwidth =3 ];
+  edge [ color = "#fcfcfc", penwidth =2, fontname = "helvetica Neue Ultra Light" ];
+subgraph "clusterERC20PermitUpgradeable" {
+  graph [ label = "ERC20PermitUpgradeable", color = "#445773", fontcolor = "#f0f0f0", style = "rounded", bgcolor = "#445773" ];
+  "ERC20PermitUpgradeable.__ERC20Permit_init" [ label = "__ERC20Permit_init", color = "#f2c383", fillcolor = "#f2c383" ];
+  "ERC20PermitUpgradeable.__ERC20Permit_init_unchained" [ label = "__ERC20Permit_init_unchained", color = "#f2c383", fillcolor = "#f2c383" ];
+  "ERC20PermitUpgradeable.permit" [ label = "permit", color = "#FF9797", fillcolor = "#FF9797" ];
+  "ERC20PermitUpgradeable.nonces" [ label = "nonces", color = "#FF9797", fillcolor = "#FF9797" ];
+  "ERC20PermitUpgradeable.DOMAIN_SEPARATOR" [ label = "DOMAIN_SEPARATOR", color = "#ffbdb9", fillcolor = "#ffbdb9" ];
+  "ERC20PermitUpgradeable.__EIP712_init_unchained" [ label = "__EIP712_init_unchained" ];
+  "ERC20PermitUpgradeable.ERC2612ExpiredSignature" [ label = "ERC2612ExpiredSignature" ];
+  "ERC20PermitUpgradeable._useNonce" [ label = "_useNonce" ];
+  "ERC20PermitUpgradeable._hashTypedDataV4" [ label = "_hashTypedDataV4" ];
+  "ERC20PermitUpgradeable.ERC2612InvalidSigner" [ label = "ERC2612InvalidSigner" ];
+  "ERC20PermitUpgradeable._approve" [ label = "_approve" ];
+  "ERC20PermitUpgradeable._domainSeparatorV4" [ label = "_domainSeparatorV4" ];
+}
+
+subgraph "clusterECDSA" {
+  graph [ label = "ECDSA", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "ECDSA.recover" [ label = "recover" ];
+}
+
+subgraph "clusterNoncesUpgradeable" {
+  graph [ label = "NoncesUpgradeable", color = "#e8726d", fontcolor = "#f0f0f0", style = "rounded,dashed", bgcolor = "#3b4b63" ];
+  "NoncesUpgradeable.nonces" [ label = "nonces" ];
+}
+
+  "ERC20PermitUpgradeable.__ERC20Permit_init";
+  "ERC20PermitUpgradeable.__EIP712_init_unchained";
+  "ERC20PermitUpgradeable.permit";
+  "ERC20PermitUpgradeable.ERC2612ExpiredSignature";
+  "ERC20PermitUpgradeable._useNonce";
+  "ERC20PermitUpgradeable._hashTypedDataV4";
+  "ECDSA.recover";
+  "ERC20PermitUpgradeable.ERC2612InvalidSigner";
+  "ERC20PermitUpgradeable._approve";
+  "ERC20PermitUpgradeable.nonces";
+  "NoncesUpgradeable.nonces";
+  "ERC20PermitUpgradeable.DOMAIN_SEPARATOR";
+  "ERC20PermitUpgradeable._domainSeparatorV4";
+  "ERC20PermitUpgradeable.__ERC20Permit_init" -> "ERC20PermitUpgradeable.__EIP712_init_unchained" [ color = "#1bc6a6" ];
+  "ERC20PermitUpgradeable.permit" -> "ERC20PermitUpgradeable.ERC2612ExpiredSignature" [ color = "#1bc6a6" ];
+  "ERC20PermitUpgradeable.permit" -> "ERC20PermitUpgradeable._useNonce" [ color = "#1bc6a6" ];
+  "ERC20PermitUpgradeable.permit" -> "ERC20PermitUpgradeable._hashTypedDataV4" [ color = "#1bc6a6" ];
+  "ERC20PermitUpgradeable.permit" -> "ECDSA.recover" [ color = "white" ];
+  "ERC20PermitUpgradeable.permit" -> "ERC20PermitUpgradeable.ERC2612InvalidSigner" [ color = "#1bc6a6" ];
+  "ERC20PermitUpgradeable.permit" -> "ERC20PermitUpgradeable._approve" [ color = "#1bc6a6" ];
+  "ERC20PermitUpgradeable.nonces" -> "NoncesUpgradeable.nonces" [ color = "white" ];
+  "ERC20PermitUpgradeable.DOMAIN_SEPARATOR" -> "ERC20PermitUpgradeable._domainSeparatorV4" [ color = "#1bc6a6" ];
+
+
+rankdir=LR
+node [shape=plaintext]
+subgraph cluster_01 { 
+label = "Legend";
+key [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td align="right" port="i1">Internal Call</td></tr>
+  <tr><td align="right" port="i2">External Call</td></tr>
+  <tr><td align="right" port="i3">Defined Contract</td></tr>
+  <tr><td align="right" port="i4">Undefined Contract</td></tr>
+  </table>>]
+key2 [label=<<table border="0" cellpadding="2" cellspacing="0" cellborder="0">
+  <tr><td port="i1">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i2">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i3" bgcolor="#445773">&nbsp;&nbsp;&nbsp;</td></tr>
+  <tr><td port="i4">
+    <table border="1" cellborder="0" cellspacing="0" cellpadding="7" color="#e8726d">
+      <tr>
+       <td></td>
+      </tr>
+     </table>
+  </td></tr>
+  </table>>]
+key:i1:e -> key2:i1:w [color="#1bc6a6"]
+key:i2:e -> key2:i2:w [color="white"]
+}
+}

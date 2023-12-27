@@ -1,0 +1,196 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="584pt" height="732pt" viewBox="0.00 0.00 583.62 732.00" style="">
+<g id="graph0" class="graph" transform="translate(4,728) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-728 579.62,-728 579.62,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterERC20PermitUpgradeable">
+
+<path fill="#445773" stroke="#445773" d="M20,-178C20,-178 555.62,-178 555.62,-178 561.62,-178 567.62,-184 567.62,-190 567.62,-190 567.62,-567 567.62,-567 567.62,-573 561.62,-579 555.62,-579 555.62,-579 20,-579 20,-579 14,-579 8,-573 8,-567 8,-567 8,-190 8,-190 8,-184 14,-178 20,-178" style=""/>
+<text text-anchor="middle" x="287.81" y="-562.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ERC20PermitUpgradeable</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterECDSA">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M406.93,-93C406.93,-93 478.9,-93 478.9,-93 484.9,-93 490.9,-99 490.9,-105 490.9,-105 490.9,-158 490.9,-158 490.9,-164 484.9,-170 478.9,-170 478.9,-170 406.93,-170 406.93,-170 400.93,-170 394.93,-164 394.93,-158 394.93,-158 394.93,-105 394.93,-105 394.93,-99 400.93,-93 406.93,-93" style=""/>
+<text text-anchor="middle" x="442.91" y="-153.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">ECDSA</text>
+</g>
+<g id="clust3" class="cluster" data-name="clusterNoncesUpgradeable">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M391.06,-8C391.06,-8 495.76,-8 495.76,-8 501.76,-8 507.76,-14 507.76,-20 507.76,-20 507.76,-73 507.76,-73 507.76,-79 501.76,-85 495.76,-85 495.76,-85 391.06,-85 391.06,-85 385.06,-85 379.06,-79 379.06,-73 379.06,-73 379.06,-20 379.06,-20 379.06,-14 385.06,-8 391.06,-8" style=""/>
+<text text-anchor="middle" x="443.41" y="-68.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">NoncesUpgradeable</text>
+</g>
+<g id="clust4" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="80.1,-587 80.1,-716 477.91,-716 477.91,-587 80.1,-587" style=""/>
+<text text-anchor="middle" x="279.01" y="-699.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- ERC20PermitUpgradeable.__ERC20Permit_init -->
+<g id="node1" class="node" pointer-events="visible" data-name="ERC20PermitUpgradeable.__ERC20Permit_init">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="153.1" cy="-528" rx="92.68" ry="18" style=""/>
+<text text-anchor="middle" x="153.1" y="-523.8" font-family="Times,serif" font-size="14.00" style="">__ERC20Permit_init</text>
+</g>
+<!-- ERC20PermitUpgradeable.__EIP712_init_unchained -->
+<g id="node6" class="node" pointer-events="visible" data-name="ERC20PermitUpgradeable.__EIP712_init_unchained">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="442.91" cy="-528" rx="111.77" ry="18" style=""/>
+<text text-anchor="middle" x="442.91" y="-523.8" font-family="Times,serif" font-size="14.00" style="">__EIP712_init_unchained</text>
+</g>
+<!-- ERC20PermitUpgradeable.__ERC20Permit_init&#45;&gt;ERC20PermitUpgradeable.__EIP712_init_unchained -->
+<g id="edge1" class="edge" data-name="ERC20PermitUpgradeable.__ERC20Permit_init-&gt;ERC20PermitUpgradeable.__EIP712_init_unchained">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M247.15,-528C269.39,-528 293.49,-528 316.91,-528" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="316.81,-531.5 326.81,-528 316.81,-524.5 316.81,-531.5" style=""/>
+</g>
+<!-- ERC20PermitUpgradeable.__ERC20Permit_init_unchained -->
+<g id="node2" class="node" pointer-events="visible" data-name="ERC20PermitUpgradeable.__ERC20Permit_init_unchained">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="153.1" cy="-420" rx="137.2" ry="18" style=""/>
+<text text-anchor="middle" x="153.1" y="-415.8" font-family="Times,serif" font-size="14.00" style="">__ERC20Permit_init_unchained</text>
+</g>
+<!-- ERC20PermitUpgradeable.permit -->
+<g id="node3" class="node" pointer-events="visible" data-name="ERC20PermitUpgradeable.permit">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="153.1" cy="-339" rx="36.49" ry="18" style=""/>
+<text text-anchor="middle" x="153.1" y="-334.8" font-family="Times,serif" font-size="14.00" style="">permit</text>
+</g>
+<!-- ERC20PermitUpgradeable.ERC2612ExpiredSignature -->
+<g id="node7" class="node" pointer-events="visible" data-name="ERC20PermitUpgradeable.ERC2612ExpiredSignature">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="442.91" cy="-474" rx="116.92" ry="18" style=""/>
+<text text-anchor="middle" x="442.91" y="-469.8" font-family="Times,serif" font-size="14.00" style="">ERC2612ExpiredSignature</text>
+</g>
+<!-- ERC20PermitUpgradeable.permit&#45;&gt;ERC20PermitUpgradeable.ERC2612ExpiredSignature -->
+<g id="edge2" class="edge" data-name="ERC20PermitUpgradeable.permit-&gt;ERC20PermitUpgradeable.ERC2612ExpiredSignature">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M188.07,-346.39C217.53,-354.12 260.06,-368.62 290.2,-393 312.62,-411.14 302.49,-430.57 326.2,-447 331.23,-450.49 336.66,-453.53 342.31,-456.18" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="340.81,-459.35 351.39,-459.94 343.49,-452.88 340.81,-459.35" style=""/>
+</g>
+<!-- ERC20PermitUpgradeable._useNonce -->
+<g id="node8" class="node" pointer-events="visible" data-name="ERC20PermitUpgradeable._useNonce">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="442.91" cy="-258" rx="53.88" ry="18" style=""/>
+<text text-anchor="middle" x="442.91" y="-253.8" font-family="Times,serif" font-size="14.00" style="">_useNonce</text>
+</g>
+<!-- ERC20PermitUpgradeable.permit&#45;&gt;ERC20PermitUpgradeable._useNonce -->
+<g id="edge3" class="edge" data-name="ERC20PermitUpgradeable.permit-&gt;ERC20PermitUpgradeable._useNonce">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M184.98,-328.54C219.27,-317.11 276.36,-298.61 326.2,-285 344.54,-279.99 364.68,-275.09 382.94,-270.86" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="383.62,-274.3 392.59,-268.66 382.06,-267.47 383.62,-274.3" style=""/>
+</g>
+<!-- ERC20PermitUpgradeable._hashTypedDataV4 -->
+<g id="node9" class="node" pointer-events="visible" data-name="ERC20PermitUpgradeable._hashTypedDataV4">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="442.91" cy="-312" rx="88.04" ry="18" style=""/>
+<text text-anchor="middle" x="442.91" y="-307.8" font-family="Times,serif" font-size="14.00" style="">_hashTypedDataV4</text>
+</g>
+<!-- ERC20PermitUpgradeable.permit&#45;&gt;ERC20PermitUpgradeable._hashTypedDataV4 -->
+<g id="edge4" class="edge" data-name="ERC20PermitUpgradeable.permit-&gt;ERC20PermitUpgradeable._hashTypedDataV4">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M190.26,-335.61C229.61,-331.92 294.1,-325.87 347.94,-320.82" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="348.02,-324.32 357.65,-319.9 347.37,-317.35 348.02,-324.32" style=""/>
+</g>
+<!-- ERC20PermitUpgradeable.ERC2612InvalidSigner -->
+<g id="node10" class="node" pointer-events="visible" data-name="ERC20PermitUpgradeable.ERC2612InvalidSigner">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="442.91" cy="-366" rx="101.9" ry="18" style=""/>
+<text text-anchor="middle" x="442.91" y="-361.8" font-family="Times,serif" font-size="14.00" style="">ERC2612InvalidSigner</text>
+</g>
+<!-- ERC20PermitUpgradeable.permit&#45;&gt;ERC20PermitUpgradeable.ERC2612InvalidSigner -->
+<g id="edge6" class="edge" data-name="ERC20PermitUpgradeable.permit-&gt;ERC20PermitUpgradeable.ERC2612InvalidSigner">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M190.26,-342.39C227.07,-345.85 285.9,-351.36 337.42,-356.2" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="337.05,-359.68 347.33,-357.13 337.7,-352.71 337.05,-359.68" style=""/>
+</g>
+<!-- ERC20PermitUpgradeable._approve -->
+<g id="node11" class="node" pointer-events="visible" data-name="ERC20PermitUpgradeable._approve">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="442.91" cy="-420" rx="46.93" ry="18" style=""/>
+<text text-anchor="middle" x="442.91" y="-415.8" font-family="Times,serif" font-size="14.00" style="">_approve</text>
+</g>
+<!-- ERC20PermitUpgradeable.permit&#45;&gt;ERC20PermitUpgradeable._approve -->
+<g id="edge7" class="edge" data-name="ERC20PermitUpgradeable.permit-&gt;ERC20PermitUpgradeable._approve">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M184.98,-349.46C219.27,-360.89 276.36,-379.39 326.2,-393 346.02,-398.41 367.93,-403.7 387.31,-408.14" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="386.47,-411.54 396.99,-410.33 388.01,-404.71 386.47,-411.54" style=""/>
+</g>
+<!-- ECDSA.recover -->
+<g id="node13" class="node" pointer-events="visible" data-name="ECDSA.recover">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="442.91" cy="-119" rx="39.97" ry="18" style=""/>
+<text text-anchor="middle" x="442.91" y="-114.8" font-family="Times,serif" font-size="14.00" style="">recover</text>
+</g>
+<!-- ERC20PermitUpgradeable.permit&#45;&gt;ECDSA.recover -->
+<g id="edge5" class="edge" data-name="ERC20PermitUpgradeable.permit-&gt;ECDSA.recover">
+
+<path fill="none" stroke="white" stroke-width="2" d="M189.55,-333.59C220.18,-327.12 263.59,-313.37 290.2,-285 325.68,-247.17 291.99,-212.98 326.2,-174 343.92,-153.81 370.68,-140.43 394.01,-131.92" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="394.96,-135.29 403.31,-128.77 392.71,-128.66 394.96,-135.29" style=""/>
+</g>
+<!-- ERC20PermitUpgradeable.nonces -->
+<g id="node4" class="node" pointer-events="visible" data-name="ERC20PermitUpgradeable.nonces">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="153.1" cy="-204" rx="37.71" ry="18" style=""/>
+<text text-anchor="middle" x="153.1" y="-199.8" font-family="Times,serif" font-size="14.00" style="">nonces</text>
+</g>
+<!-- NoncesUpgradeable.nonces -->
+<g id="node14" class="node" pointer-events="visible" data-name="NoncesUpgradeable.nonces">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="442.91" cy="-34" rx="37.71" ry="18" style=""/>
+<text text-anchor="middle" x="442.91" y="-29.8" font-family="Times,serif" font-size="14.00" style="">nonces</text>
+</g>
+<!-- ERC20PermitUpgradeable.nonces&#45;&gt;NoncesUpgradeable.nonces -->
+<g id="edge8" class="edge" data-name="ERC20PermitUpgradeable.nonces-&gt;NoncesUpgradeable.nonces">
+
+<path fill="none" stroke="white" stroke-width="2" d="M175.46,-188.25C207.37,-165.06 269.8,-121.03 326.2,-89 350.35,-75.29 378.48,-61.86 400.95,-51.71" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="402.32,-54.93 410.03,-47.66 399.47,-48.54 402.32,-54.93" style=""/>
+</g>
+<!-- ERC20PermitUpgradeable.DOMAIN_SEPARATOR -->
+<g id="node5" class="node" pointer-events="visible" data-name="ERC20PermitUpgradeable.DOMAIN_SEPARATOR">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="153.1" cy="-258" rx="111.81" ry="18" style=""/>
+<text text-anchor="middle" x="153.1" y="-253.8" font-family="Times,serif" font-size="14.00" style="">DOMAIN_SEPARATOR</text>
+</g>
+<!-- ERC20PermitUpgradeable._domainSeparatorV4 -->
+<g id="node12" class="node" pointer-events="visible" data-name="ERC20PermitUpgradeable._domainSeparatorV4">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="442.91" cy="-204" rx="93.77" ry="18" style=""/>
+<text text-anchor="middle" x="442.91" y="-199.8" font-family="Times,serif" font-size="14.00" style="">_domainSeparatorV4</text>
+</g>
+<!-- ERC20PermitUpgradeable.DOMAIN_SEPARATOR&#45;&gt;ERC20PermitUpgradeable._domainSeparatorV4 -->
+<g id="edge9" class="edge" data-name="ERC20PermitUpgradeable.DOMAIN_SEPARATOR-&gt;ERC20PermitUpgradeable._domainSeparatorV4">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M230.1,-243.74C270.01,-236.25 318.96,-227.07 359.75,-219.42" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="360.24,-222.88 369.43,-217.6 358.95,-216 360.24,-222.88" style=""/>
+</g>
+<!-- key -->
+<g id="node15" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="218.1,-683 88.1,-683 88.1,-595 218.1,-595 218.1,-683" style=""/>
+<text text-anchor="start" x="137.74" y="-664.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="133.85" y="-644.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="111.3" y="-624.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="97.7" y="-604.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node16" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="469.91,-683 415.91,-683 415.91,-595 469.91,-595 469.91,-683" style=""/>
+<text text-anchor="start" x="432.91" y="-664.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="432.91" y="-644.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="none" points="430.91,-619 430.91,-639 455.91,-639 455.91,-619 430.91,-619" style=""/>
+<text text-anchor="start" x="432.91" y="-624.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="432.91,-601 432.91,-617 453.91,-617 453.91,-601 432.91,-601" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge10" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M211.1,-669C303.89,-669 330.28,-669 416.97,-669" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="416.88,-672.5 426.88,-669 416.88,-665.5 416.88,-672.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge11" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M211.1,-649C303.89,-649 330.28,-649 416.97,-649" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="416.88,-652.5 426.88,-649 416.88,-645.5 416.88,-652.5" style=""/>
+</g>
+</g>
+</svg>
